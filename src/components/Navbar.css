@@ -1,0 +1,39 @@
+.nav-link {
+  color: #1111aa;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  width: 88px;
+  height: 36px;
+  margin-left: 35px;
+}
+.nav-link:hover{
+    color: #F89000;
+}
+ul:last-child{
+    margin-right: 56px;
+}
+
+.navbar-brand{
+    margin-top: 25px;
+    margin-left: 49px;
+}
+
+.d-inline-block{
+    height: 95px;
+    width: 267px;
+    margin-left: 0;
+}
+
+.navbar-toggler{
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+@media (max-width: 403px)
+{
+    .navbar-brand{
+        margin-left: 0;
+    }
+}
