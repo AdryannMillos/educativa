@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,800&family=Roboto:wght@700;900&display=swap");
+
+section {
+  background-image: url(../imgs/smilingWoman.png);
+  height: 893px;
+  width: 100%;
+  position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.glass {
+  height: 644px;
+  width: 647px;
+  text-align: left;
+  padding-left: 43px;
+  padding-right: 26px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: rgba(221, 218, 255, 0.5);
+  border-radius: 21px;
+  position: relative;
+  left: 81px;
+  top: 68px;
+}
+hr {
+  border: none;
+  background-color: #f89000;
+  width: 63px;
+  border: 3.5px solid #f89000;
+  border-radius: 21px;
+  opacity: 100;
+}
+
+h1 {
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.1em;
+  color: #1111aa;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #605d5d;
+}
+
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 139.19%;
+  letter-spacing: -0.005em;
+  color: #000000;
+  max-width: 560px;
+  margin-top: 20px
+}
+
+.btn{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+border: solid 3px #f89000;
+border-radius: 21px;
+padding: 14px 41.5px;
+text-decoration: none;
+margin-left: 130px;
+margin-top: 40px;
+
+}
