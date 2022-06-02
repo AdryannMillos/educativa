@@ -3,7 +3,7 @@ import "./SectionOne.css";
 
 function SectionOne() {
   return (
-    <section>
+    <section className="sectionOne">
       <Navbar />
       <div className="glass">
           <hr/>

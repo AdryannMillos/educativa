@@ -1,0 +1,24 @@
+.sectionTwo {
+  position: absolute;
+  margin-top: 893px;
+  width: 100%;
+  height: 1300px;
+  background-color: #f9faf9;
+}
+
+.textBox {
+  margin-top: 99px;
+  margin-left: 125px;
+  text-align: left;
+  padding-right: 22px;
+  width: 491px;
+  height: 230px;
+}
+
+.textBox p {
+  margin-top: 28px;
+}
+
+.imgBox {
+  margin-left: 550px;
+}
