@@ -5,8 +5,8 @@ function SectionTwo() {
   return (
     <section className="sectionTwo">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="card border-light ">
+        <div class="col-sm-6 col-md-6">
+          <div class="card border-light textBox">
             <div class="card-body">
               <hr />
               <h1>NÓS TEMOS O QUE VOCÊ PRECISA!</h1>
@@ -21,10 +21,10 @@ function SectionTwo() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6">
           <div class="card border-light">
             <div class="card-body">
-              <img src={workingGroup} alt="Grupo de pessoas trabalhando"></img>
+              <img src={workingGroup} alt="Grupo de pessoas trabalhando" class="img-responsive"></img>
             </div>
           </div>
         </div>

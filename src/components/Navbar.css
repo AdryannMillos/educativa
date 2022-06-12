@@ -3,21 +3,29 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   width: 88px;
-  height: 36px;
-  margin-left: 35px;
+  height: 2.25rem;
+  margin-left: 1.5rem;
 }
 .nav-link:hover{
     color: #F89000;
 }
+
+.d-inline-block{
+    margin-top:0;
+}
 ul:last-child{
-    margin-right: 56px;
+    margin-right: 20px;
 }
 
+
 .navbar-brand{
-    margin-top: 25px;
-    margin-left: 49px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0.7rem;
+    margin-left: 3.063rem;
 }
 
 .d-inline-block{
