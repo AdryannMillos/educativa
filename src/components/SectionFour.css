@@ -15,7 +15,8 @@
   font-size: 34px;
   line-height: 42px;
   text-align: center;
-  color: blue;
+  color: #FFFFFF;
+  ;
   margin-top: 40px;
   padding: auto;
 }
@@ -30,5 +31,9 @@
 }
 
 .border-light{
-  color: inherit;
+  border:none;
+}
+
+.sectionFour button{
+  color: #FFFFFF;
 }
