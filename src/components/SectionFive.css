@@ -1,0 +1,20 @@
+.sectionFive {
+  position: absolute;
+  margin-top: 255rem;
+  width: 100%;
+  height: 1300px;
+  width: 100%;
+  text-align: center;
+}
+
+.sectionFive h1{
+  margin-top: 10px
+}
+
+.sectionFive .card {
+  margin-left: 0;
+}
+
+.sectionFive .row{
+  padding-left: 35px;
+}
