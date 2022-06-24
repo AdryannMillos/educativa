@@ -1,31 +1,15 @@
-import "./App.css";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
-import SectionThree from "./components/SectionThree";
-import SectionFour from "./components/SectionFour";
-import SectionFive from "./components/SectionFive";
-import SectionSix from "./components/SectionSix";
-import SectionSeven from "./components/SectionSeven";
-import SectionEight from "./components/SectionEight";
+import React from "react";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <SectionOne />
-
-      <SectionTwo />
-
-      <SectionThree />
-
-      <SectionFour />
-
-      <SectionFive />
-
-      <SectionSix />
-
-      <SectionSeven />
-
-      <SectionEight />
+      <BrowserRouter>
+      <Routes>
+      <Route element={<Home></Home>} path="/" exact />
+      </Routes>
+      </BrowserRouter>
     </>
   );
 }

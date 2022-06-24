@@ -16,7 +16,7 @@ function SectionOne() {
           para você que possui uma rotina apertada ou precisa complementar horas
           extras.{" "}
         </p>
-        <button type="button" class="btn btn-outline-warning">Saiba Mais</button>
+        <a  href="#courses" class="btn btn-outline-warning">Saiba Mais</a>
       </div>
     </section>
   );

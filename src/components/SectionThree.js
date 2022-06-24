@@ -4,7 +4,7 @@ import studentGroup from "../imgs/studentGroup.png";
 
 function SectionThree() {
   return (
-    <section className="sectionThree">
+    <section className="sectionThree" id="about">
       <hr className="m-auto" />
       <div className="text">
         <h1 className="text-tittle">AQUI VOCÊ APRENDE MAIS EM POUCO TEMPO!</h1>

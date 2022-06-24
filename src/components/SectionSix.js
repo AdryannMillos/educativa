@@ -1,46 +1,67 @@
 import "./SectionSix.css";
+import emailjs from '@emailjs/browser';
 
 function SectionSix() {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+   if(e.nativeEvent.target[0].value == '' || e.nativeEvent.target[1].value == '' ||e.nativeEvent.target[2].value == '' ||e.nativeEvent.target[3].value == ''){
+     return alert("Por favor preencha todos os campos!")
+   }
+    emailjs.sendForm('service_mlve24b', 'template_educativa', e.target, 'tvE-_JWV-MlffeOk0')
+      .then((result) => {
+          console.log(result.text);
+          alert('E-mail enviado com sucesso');
+          window.location.reload();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section className="sectionSix">
       <div className="text">
         <hr className="m-auto" />
         <h1 className="">NOS MANDE UMA MENSAGEM</h1>
       </div>
-      <form>
+      <form onSubmit={sendEmail}>
         <div class="form-group">
-          <label for="exampleInputEmail1">E-mail</label>
+          <label for="email">E-mail</label>
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
+            id="email"
+            name="email"
             aria-describedby="emailHelp"
             placeholder="Coloque seu e-mail"
           />
         </div>
         <div class="form-group">
-          <label for="exampleInputName1">Nome</label>
+          <label for="name">Nome</label>
           <input
             type="text"
             class="form-control"
-            id="exampleInputName1"
+            id="name"
+            name="name"
             placeholder="Nome"
           />
         </div>
         <div class="form-group">
-          <label for="exampleInputSubject1">Assunto</label>
+          <label for="subject">Assunto</label>
           <input
             type="text"
             class="form-control"
-            id="exampleInputSubject1"
+            id="subject"
+            name="subject"
             placeholder="Assunto"
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Mensagem</label>
+          <label for="message">Mensagem</label>
           <textarea
             class="form-control"
-            id="exampleFormControlTextarea1"
+            id="message"
+            name="message"
             rows="5"
           ></textarea>
         </div>

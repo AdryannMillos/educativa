@@ -7,8 +7,27 @@
   background-color: #EEEDFF;
 }
 
-li{
+.icon{
   list-style-type: none;
   font-size: 55px;
-  margin-top: 30px
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+
+.sectionSeven li:first-child{
+  margin-left: 7px;
+}
+
+.sectionSeven li{
+  font-size: 30px;
+  
+}
+
+.sectionSeven .row{
+  padding-left: 25px;
+}
+
+.sectionSeven li:last-child{
+  margin-left: 7px;
 }

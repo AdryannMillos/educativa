@@ -1,6 +1,7 @@
 import "./SectionFive.css";
 import unintaLogo from "../imgs/unintaLogo.png";
-import studentGroup from "../imgs/studentGroup.png";
+import maltaLogo from "../imgs/malta.png";
+import FAEPI from "../imgs/FAEPI.png";
 
 function SectionFive() {
   return (
@@ -25,8 +26,9 @@ function SectionFive() {
           <div class="card border-light">
             <div class="card-body">
               <img
-                src={unintaLogo}
+                src={maltaLogo}
                 alt="Um grupo de estudantes em pé, formado por duas três mulheres e um homem, o grupo está segurando cadernos e usando mochilas"
+                className="malta"
               ></img>
             </div>
           </div>
@@ -35,7 +37,7 @@ function SectionFive() {
           <div class="card border-light">
             <div class="card-body">
               <img
-                src={unintaLogo}
+                src={FAEPI}
                 alt="Um grupo de estudantes em pé, formado por duas três mulheres e um homem, o grupo está segurando cadernos e usando mochilas"
               ></img>
             </div>
