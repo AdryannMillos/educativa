@@ -15,7 +15,7 @@ function SectionFour() {
         <h2>Clique em saiba mais e conheça cada um dos cursos</h2>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img
@@ -29,7 +29,7 @@ function SectionFour() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img
@@ -43,7 +43,7 @@ function SectionFour() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img
@@ -57,7 +57,7 @@ function SectionFour() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img
@@ -71,7 +71,7 @@ function SectionFour() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img
@@ -85,7 +85,7 @@ function SectionFour() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card border-light">
             <div class="card-body">
               <img

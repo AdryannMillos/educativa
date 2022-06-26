@@ -4,30 +4,45 @@
   width: 100%;
   height: 1000px;
   width: 100%;
-  background-color: #EEEDFF;
+  background-color: #eeedff;
 }
 
-.icon{
+.icon {
   list-style-type: none;
   font-size: 55px;
   margin-top: 30px;
   margin-right: 10px;
 }
 
-
-.sectionSeven li:first-child{
+.icon:first-child {
+  margin-top: 0px;
+}
+.sectionSeven li:first-child {
   margin-left: 7px;
 }
 
-.sectionSeven li{
+.sectionSeven li {
   font-size: 30px;
-  
 }
 
-.sectionSeven .row{
+.sectionSeven .row {
   padding-left: 25px;
 }
 
-.sectionSeven li:last-child{
+.sectionSeven li:last-child {
   margin-left: 7px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sectionSeven {
+    position: absolute;
+    margin-top: 310rem;
+    height: 800px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  .sectionSeven li {
+    font-size: 16px;
+  }
 }
